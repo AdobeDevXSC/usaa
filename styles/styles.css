@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-:root {
+ :root {
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
@@ -18,10 +18,9 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
-  --accent-background-color: #f2f2f2;
 
   /* fonts */
-  --body-font-family: Citi-Sans-Text, roboto, roboto-fallback;
+  --body-font-family: roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -39,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 90px;
+  --nav-height: 64px;
 }
 
 @font-face {
@@ -223,19 +222,5 @@ main .section {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--background-color);
-}
-
-/* custom section styling */
-@media (width >= 900px) {
-  main .section.hero-container:first-of-type {
-    position: sticky;
-    top: var(--nav-height);
-    z-index: 1;
-  }
-  
-  main .section {
-    position: relative;
-    z-index: 2;
-  }  
+  background-color: var(--light-color);
 }
