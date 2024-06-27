@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--citigroup-global--AdobeDevXSC.hlx.page/
-- Live: https://main--citigroup-global--AdobeDevXSC.hlx.live/
+- Preview: https://main--USAA--AdobeDevXSC.hlx.page/
+- Live: https://main--USAA--AdobeDevXSC.hlx.live/
 
 ## Installation
 
