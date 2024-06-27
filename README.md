@@ -2,8 +2,8 @@
 https://www.usaa.com/about landing page built in Edge Delivery Services.
 
 ## Environments
-- Preview: https://main--USAA--AdobeDevXSC.hlx.page/
-- Live: https://main--USAA--AdobeDevXSC.hlx.live/
+- Preview: https://main--usaa--AdobeDevXSC.hlx.page/
+- Live: https://main--usaa--AdobeDevXSC.hlx.live/
 
 ## Installation
 
