@@ -1,8 +1,19 @@
 /* header and nav layout */
+header {
+  border-bottom: 1px solid #41617c;
+  height: var(--nav-height);
+}
+
+@media (width <= 900px) {
+  header {
+    height: 55px;
+  }
+}
+
 header .nav-wrapper {
   background-color: var(--theme-color);
   width: 100%;
-  z-index: 2;
+  z-index: 3;
   /* position: fixed; */
 }
 
