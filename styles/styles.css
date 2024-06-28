@@ -224,3 +224,11 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+.section.yellow-bottom-border {
+  border-bottom: 8px solid #fac705;
+}
+
+.section.theme-background {
+  background-color: var(--theme-color);
+}

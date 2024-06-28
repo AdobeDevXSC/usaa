@@ -49,43 +49,41 @@
 }
 
 /* banner */
-.section.banner {
-  background-color: var(--theme-color);
+.section.banner.columns-container {
   padding-top: 0;
   padding-bottom: 0;
-  border-bottom: 8px solid #fac705;
 }
 
-.section.banner {
+.columns.banner {
   color: var(--white-color);
 }
 
-.section.banner .columns h1 {
+.columns.banner h1 {
   margin: 0;
   font-size: 52px;
   line-height: 52px;
 }
 
-.section.banner .columns p {
+.columns.banner p {
   font-size: 18px;
 }
 
-.section.banner .columns .columns-img-col {
+.columns.banner .columns-img-col {
   position: relative;
   display: inline-block;
 }
 
-.section.banner .columns .columns-img-col picture {
+.columns.banner .columns-img-col picture {
   display: block;
   height: 100%;
 }
 
-.section.banner .columns .columns-img-col img {
+.columns.banner .columns-img-col img {
   min-height: 350px;
 }
 
-.section.banner .columns .columns-img-col::before,
-.section.banner .columns .columns-img-col::after {
+.columns.banner .columns-img-col::before,
+.columns.banner .columns-img-col::after {
   content: '';
   position: absolute;
   top: 0;
@@ -94,32 +92,32 @@
   z-index: 2;
 }
 
-.section.banner .columns .columns-img-col::before {
+.columns.banner .columns-img-col::before {
   left: 0;
   background: linear-gradient(to right, #12395b 0%, rgba(18, 57, 91, 0.9) 30%, rgba(18, 57, 91, 0) 100%);
 }
 
-.section.banner .columns .columns-img-col::after {
+.columns.banner .columns-img-col::after {
   right: 0;
   background: linear-gradient(to left, #12395b 0%, rgb(18 57 91 / 88%) 10%, rgba(18, 57, 91, 0) 100%);
 }
 
 @media (width <= 900px) {
-  .section.banner .columns h1 {
+  .columns.banner h1 {
     font-size: 42px;
     line-height: 38px;
   }
 
-  .section.banner .columns p {
+  .columns.banner p {
     font-size: 16px;
     line-height: 28px;
   }
 
-  .section.banner .columns .columns-img-col img {
+  .columns.banner .columns-img-col img {
     min-height: unset;
   }
 
-  .section.banner .columns > div > div:not(.columns-img-col) {
+  .columns.banner > div > div:not(.columns-img-col) {
     padding: 1.5rem 0 2.5rem;
   }
 }
