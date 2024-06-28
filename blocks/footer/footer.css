@@ -1,14 +1,116 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background-color: var(--white-color);
   font-size: var(--body-font-size-s);
 }
 
 footer .footer {
   max-width: 1200px;
   margin: auto;
+  color: var(--black-color);
 }
 
 footer .footer p {
   margin: 0;
+}
+
+footer img[data-icon-name="logo"] {
+  filter: invert(1);
+  height: auto;
+  width: auto;
+}
+
+footer a {
+  color: inherit !important;
+}
+
+/* first section */
+footer .section:first-of-type {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .section:first-of-type .default-content-wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:first-of-type .icon {
+  width: 48px;
+  height: 48px;
+  padding: 0.5rem;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:nth-child(2) {
+  padding: 1rem 0;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:nth-child(2) > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  column-gap: 2rem;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:nth-child(2) > ul > li > a {
+  padding: 0.5rem;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:nth-child(2) > ul > li > a:hover {
+  text-decoration: none;
+  background-color: var(--light-color);
+  border-radius: 5px;
+}
+
+footer .section:first-of-type .default-content-wrapper > ul > li:nth-child(3) > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+/* second section */
+footer .section:nth-of-type(2) .default-content-wrapper {
+  font-size: 14px;
+}
+
+footer .section:nth-of-type(2) .default-content-wrapper p:first-of-type a {
+  text-decoration: underline;
+  margin-right: 24px;
+}
+
+footer .section:nth-of-type(2) .default-content-wrapper p:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+/* third section */
+footer .section:nth-of-type(3) {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer .section:nth-of-type(3) .default-content-wrapper p {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #4e4e4f;
+}
+
+/* fourth section */
+footer .section:nth-of-type(4) .default-content-wrapper p {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #4e4e4f;
+  text-align: right;
 }
