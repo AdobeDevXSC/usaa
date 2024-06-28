@@ -331,6 +331,17 @@ header nav .nav-tools .default-content-wrapper p {
   cursor: pointer;
 }
 
+header nav .nav-tools .default-content-wrapper .button-container a {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: unset;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  background-color: unset;
+}
+
 header nav .nav-tools .default-content-wrapper p:hover {
   background-color: #0e2e49;
   border-radius: 5px;
