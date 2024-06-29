@@ -27,6 +27,25 @@
   object-fit: cover;
 }
 
+.columns ul {
+  padding-left: 15px;
+}
+
+.columns ul li {
+  font-size: 16px;
+  padding-left: 5px;
+  margin: 5px 0;
+}
+
+.columns ul li a {
+  text-decoration: underline;
+  color: #0b2237;
+}
+
+.columns ul li a:hover {
+  color: #0058a0;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;

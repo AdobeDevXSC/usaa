@@ -248,8 +248,9 @@ main .section.highlight {
   margin-top: 0;
 }
 
-.section.quote .default-content-wrapper *{
+.section.quote .default-content-wrapper * {
   width: 50%;
+  text-align: left;
 }
 
 .section.quote p {
