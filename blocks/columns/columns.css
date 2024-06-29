@@ -34,6 +34,10 @@
     gap: 32px;
   }
 
+  .columns:not(.banner) > div {
+    align-items: flex-start;
+  }
+
   .columns > div > div {
     flex: 1;
     order: unset;
@@ -45,6 +49,10 @@
 
   .columns > div > .columns-img-col img {
     height: 100%;
+  }
+
+  .columns h3 {
+    margin-top: 0;
   }
 }
 
@@ -113,6 +121,6 @@
   }
 
   .columns.banner > div > div:not(.columns-img-col) {
-    padding: 1.5rem 0 2.5rem;
+    padding: 1.5rem 15px 2.5rem;
   }
 }
