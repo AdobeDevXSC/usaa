@@ -222,7 +222,7 @@ main .section {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
+  background-color: #f3f3f3;
 }
 
 .section.yellow-bottom-border {
@@ -231,4 +231,8 @@ main .section.highlight {
 
 .section.theme-background {
   background-color: var(--theme-color);
+}
+
+.section.no-padding {
+  padding: 0;
 }

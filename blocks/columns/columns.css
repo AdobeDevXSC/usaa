@@ -49,11 +49,6 @@
 }
 
 /* banner */
-.section.banner.columns-container {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .columns.banner {
   color: var(--white-color);
 }
