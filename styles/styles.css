@@ -168,6 +168,13 @@ button::after {
   margin-left: 10px;
 }
 
+/* Remove the ::after content for .button and button elements inside header */
+header .button::after,
+header button::after {
+  content: none;
+  margin-left: 0;
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
