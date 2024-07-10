@@ -126,6 +126,12 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label":"style",
+        "value":""
       }
     ]
   },

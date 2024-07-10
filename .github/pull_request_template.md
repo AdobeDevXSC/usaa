@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--citigroup-global--AdobeDevXSC.hlx.live/
-- After: https://<branch>--citigroup-global--AdobeDevXSC.hlx.live/
+- Before: https://main--usaa--AdobeDevXSC.hlx.live/
+- After: https://<branch>--usaa--AdobeDevXSC.hlx.live/
